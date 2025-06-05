@@ -1,0 +1,22 @@
+$primary: #39cdd8;
+
+h1 {
+  color: $primary;
+}
+
+.hmodal {
+  &__cta {
+    border-color: transparent;
+  }
+}
+
+li {
+  a {
+    background-color: transparent;
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0px 10px 10px -10px rgb(59, 191, 224);
+    }
+  }
+}
